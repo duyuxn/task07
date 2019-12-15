@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+.top{
+	height: 1px;
+}
+.notice{
+	height: 20px;
+	background-color: rgb(204, 204, 204);
+}
+.cue{
+	position: absolute;
+	left: 180px;
+	margin: 0 auto;
+}
+.text{
+	position: absolute;
+	left: 200px;
+	overflow: hidden;
+	width: 980px;
+	height: 18px;
+	margin: 0 auto;
+}
+.p{
+	font-size: 12px;
+	display: inline-block;
+	color: red;
+	position: absolute;
+	left: 980px;
+}
+.box{
+	width: 1200px;
+	height: 380px;
+	border: 0px;
+	margin: 30px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box span{
+	display: none;
+}
+.box:hover span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #ccc;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background: red;
+}
